@@ -9,7 +9,7 @@
   padding-bottom: 60px;
 
   @media screen and (min-width: 1200px) {
-    padding-top: 94px;
+    padding-top: 58px;
     padding-bottom: 94px;
   }
 }
@@ -18,11 +18,9 @@
 }
 .work__list {
   display: flex;
-  margin-left: -30px;
 }
-.work__list__item {
-  flex-basis: calc(100% / 3 - 30px);
-  margin-left: 30px;
+.work__list__item:not(:last-child) {
+  margin-right: 30px;
 }
 .work__item__wrap {
   position: relative;
@@ -36,7 +34,7 @@
   justify-content: center;
   align-items: center;
   text-transform: uppercase;
-  color: var(--primary-title-color);
+  color: var(--main-text-light-color);
   position: absolute;
   bottom: 0px;
 }
